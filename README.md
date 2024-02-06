@@ -12,11 +12,15 @@ This Solidity contract implements a multi-signature wallet on the Ethereum block
 ## Getting Started
 
 ### Prerequisites
-- Knowledge about Solidity : [https://docs.soliditylang.org/en/v0.8.24/]
+- Knowledge on Solidity : [https://docs.soliditylang.org/en/v0.8.24/]
 - Remix IDE : [http://remix.ethereum.org/]
 
 ### Installation
-1. Navigate to the Remix IDE : Copy and paste the code from [multiSigwallet.sol] (Note : A message might pop-up , Read And allow the code to be Pasted)
+1. Navigate to the Remix IDE: Copy and paste the code from (https://github.com/albertisaac12/MultiSigWallet/blob/main/multisigwallet.sol) (Note: A message might pop up, Read And allow the code to be Pasted)
+2. Install MetaMask from (https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn)
+3. Set Up MetaMask (Its a relatively simple task just go through the installation procees and you will be good to go 😁)
+4. Enabe the Test Networks on MetaMask.
+5. ![image](https://github.com/albertisaac12/MultiSigWallet/assets/91803132/4c201c3b-a926-4b95-a8d0-44e32ae32198)
 
 ### Usage
 
