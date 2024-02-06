@@ -49,7 +49,53 @@ This Solidity contract implements a multi-signature wallet on the Ethereum block
 6. Now make sure to Create at least **4 to 5** accounts on MetaMask
   
 7. Time to get some Test Sepolia Ether into our Wallet, we will be using Alchemy to get some test ether
-   (Go to This Link : https://sepoliafaucet.com/ )
-8. Click on **Alchemy Login** on the **Top-Right** 
+   (Go to This Link: https://sepoliafaucet.com/ )
 
-### Usage
+
+8. Click on **Alchemy Login** on the **Top-Right** if you do not have an account make sure to create one (Relatively easy task 😁).
+<div align="center">
+  <img src="https://github.com/albertisaac12/MultiSigWallet/assets/91803132/3478e462-9525-48c6-b77d-4cb4b3d0c8d8" alt="Step 7" />
+</div>
+
+
+9. Now copy any of your account addresses from MetaMask and Paste it in the Box just like below 👇
+<div align="center">
+  <img src="https://github.com/albertisaac12/MultiSigWallet/assets/91803132/08a3b792-7fe9-4fd5-a2ee-75ebbf627c79" alt="Step 8" />
+</div>
+
+
+10. Hit on Send ETH and Voila there will be 0.5 Sepolia ETH deposited in your wallet within 2 minutes. (Note: You can only claim ETH once every **24 hours** and this Sepolia ETH **doesn't hold any real-world Value. **) 
+
+11. Now head over to Remix IDE, Time to set our ETH provider, just follow the images below 👇
+<div align="center">
+  <img src="https://github.com/albertisaac12/MultiSigWallet/assets/91803132/d3edcb43-7000-4a61-939b-d3468fa9b395" alt="Step 9" />
+</div>
+
+<div style="text-align:center;">
+  <img src="https://github.com/albertisaac12/MultiSigWallet/assets/91803132/6eaa5dcf-c707-4dc0-9c8e-d0fee13ad31f" alt="Step 10" />
+</div>
+
+12. Now time to Deploy the Smart Contract and Test out its Functioning.
+13. Head over to the Deploy & run transactions tab in the Remix IDE (the tab has a symbol similar to ETH])
+14. Now Select your contract from contract section and make sure that you are still on injected provider and then check the deploy section. The Deploy section must be expecting 2 arguments an _owners[] array and _required uint.
+15. Remember we made multiple accounts During the setup process, open a notepad and copy alteast 4 account addresses like this => ["address 1" , "address 2" , "address 3" ,"address 4"] also make sure to give _required value greater than the number of addresses in _owners[].
+16. Finally head down and hit on "transact" (its a box highlighted in yellow just below DEPLOY section).
+<div align="center">
+  <img src="https://github.com/albertisaac12/MultiSigWallet/assets/91803132/e17ac1d6-206c-4257-b3a6-a402aabc72e2" alt="Step 11" />
+</div>
+
+
+18. Now MetaMask will pop for transaction Approval. Hit on Confirm.
+    <div align= "center">
+        <img src="https://github.com/albertisaac12/MultiSigWallet/assets/91803132/9e0adb08-0a65-4113-be77-1fd948756f56" alt ="step 12">
+    </div>
+
+19. Once Your Transaction is Sucessful you will recieve the confirmation on the "Console"
+    <div align = "center">
+        <img src="https://github.com/albertisaac12/MultiSigWallet/assets/91803132/2d60dca3-7a46-44fe-a718-593d4f70f637" alt = "step 13">
+    </div>
+
+20. Voila You have finally Deployed Your Contract Sucessfully now you can play around with the contract as you like. 
+
+### Contact
+If you have any troubles completing the steps or have any quries feel free to ping me LinkedIn (https://www.linkedin.com/in/abhigadipalli/)
