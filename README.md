@@ -29,11 +29,18 @@ This Solidity contract implements a multi-signature wallet on the Ethereum block
 6. Now make sure to Create atlease **4 to 5** accounts on MetaMask
   ![3](https://github.com/albertisaac12/MultiSigWallet/assets/91803132/f6e2b3e4-4167-412a-ae83-3653fe45b358)
 
+
   ![4](https://github.com/albertisaac12/MultiSigWallet/assets/91803132/a094fd70-f1f8-48b6-ba29-f63fecc48f76)
+
   
   ![5](https://github.com/albertisaac12/MultiSigWallet/assets/91803132/43c6ae43-7e02-4c11-be88-9d252c11c1dc)
+
+
   
   ![6](https://github.com/albertisaac12/MultiSigWallet/assets/91803132/ed64bb93-80fc-46ab-83f1-9b167778fd8f)
+
+
+
 
 8. Time to get some Test Sepolia Ether into our Wallet, we will be using Alchemy to get some test ether (Go to This Link : https://sepoliafaucet.com/ )
    
